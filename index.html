@@ -1,34 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Page</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Page</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <div class="container">
+  <header>
+    <div class="container">    
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <span class="logo-left">w</span>
+          <span class="logo-right">p</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            </div>
-        </nav>
-    </header>
-    <div class="main-content">
-        <h1>Web page consists of</h1>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link navbar-cur-page" href="index.html">Homepage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">JS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+  </header>
+  <div class="main-content">
+    <h1>Web page consists of</h1>
+    <ul class="main-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JS</li>
+    </ul>
 
-        <p>It is hypertext document on me World wide web</p>
-        <p>Web pages are delivered by a web server to the user and displayed in a web browser</p>
-    </div> 
-    <footer>
-        <span class="author">
-            Made by Kleyst
-        </span>
-    </footer>
+    <p>It is hypertext document on the World Wide Web</p>
+    <p>Web pages are delivered by a web server to the user and displayed in a web browser</p>
+  </div>
+  <footer>
+    <span class="author">
+      Made by Kleyst
+    </span>
+  </footer>
 </body>
+
 </html>
