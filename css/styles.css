@@ -1,0 +1,90 @@
+@font-face {
+  font-family: mainFont;
+  src: url('../fonts/Sitdown.otf');
+}
+
+* {
+  font-family: mainFont;
+  letter-spacing: 2px;
+}
+
+header {
+  padding-top: 19px;
+  height: 104px;
+}
+
+.navbar {
+  margin-left: 32px;
+  background-color: white;
+  font-size: 27px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #8359e8;
+}
+
+.logo-left,
+.logo-right {
+  font-size: 27px;
+  position: relative;
+  color: #5e17eb;
+}
+
+.logo-left {
+  bottom: 3px;
+  right: -1px;
+}
+
+.logo-right {
+  top: 3px;
+  left: -1px;
+}
+
+.navbar-cur-page {
+  text-decoration: underline;
+}
+
+.main-content {
+  height: 760px;
+  font-size: 27px;
+  color: white;
+  background-color: #8359e8;
+}
+
+h1 {
+  padding-top: 27px;
+  font-size: 34px;
+  text-align: center;
+}
+
+p {
+  width: 342px;
+  font-size: 23px;
+  text-align: justify;
+}
+
+p::after {
+  display: block;
+  content: "";
+  margin-top: 30px;
+  margin-bottom: 32px;
+  width: 172px;
+  height: 5px;
+  background-color: white;
+}
+
+footer {
+  position: relative;
+  height: 104px;
+  color: #8359e8;
+  font-size: 27px;
+}
+
+.author {
+  position: absolute;
+  top: 50%;
+  right: 67px;
+  transform: translateY(-50%);
+  text-decoration: none;
+  color: #8359e8;
+}
